@@ -7,13 +7,18 @@
     <title>Primera pagina de Bootstrap 5 y Sass</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+  </head>
 <body>
     <!-- /////////////////////////////////////////////////////////////////////// -->
     <!--                           Comienzo del Navbar                           -->
     <!-- /////////////////////////////////////////////////////////////////////// -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark menu">
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo1.jpg" alt="pankat">
@@ -51,6 +56,60 @@
         </div>
       </nav>
 
+<!-- /////////////////////////////////////////////////////////////////////// -->
+<!--                         Comienzo Seccion Intro                          -->
+<!-- /////////////////////////////////////////////////////////////////////// -->
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- /////////////////////////////////////////////////////////////////////// -->
+      <!--               Comenzando el contenido de la precentacion                -->
+      <!-- /////////////////////////////////////////////////////////////////////// -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">Hey!, Somos Pankat</span>
+          <span class="display-2--description lh-base">Esta es nuestra pagina de prueba de bootstrap.
+            lo que puedas imaginar lo podras lograr
+          </span>
+        </h1>
+        <button type="button" class="rounded-pill btn-rounded">Inicia aqui!
+          <span>
+            <i class="fas fa-arrow-right" style="transform: rotate(0deg) !important;"></i>
+          </span>
+        </button>
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////////// -->
+      <!--                    Comenzando el contenido del video                    -->
+      <!-- /////////////////////////////////////////////////////////////////////// -->
+      <div class="col-md-6 intros text-end">
+        <div class="video-box">
+          <img src="images/logo png f.png" alt="panda logo" class="img-fluid">
+          <a href="#" class="glightbox">
+            <span>
+              <i class="fas fa-play-circle"></i>
+            </span>
+            <span class="border-animation border-animation--border-1"></span>
+            <span class="border-animation border-animation--border-2"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,144C384,149,480,171,576,202.7C672,235,768,277,864,250.7C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=7WsWAGue9dc',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+});
+    </script>
     <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>

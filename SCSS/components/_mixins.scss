@@ -5,3 +5,14 @@
 @mixin gradient {
     background: linear-gradient(to right, rgba($primary,0.95), rgba($secondary,0.95));
 }
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/*                    Configuracion de centrados absolutos                    */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+@mixin absoluteCenter{
+    position: absolute;
+    top:60%;
+    left: 95%;
+    transform: translate(-50%,-60%);
+}
