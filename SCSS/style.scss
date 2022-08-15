@@ -1,0 +1,20 @@
+
+@use "custom";
+
+
+//Importar los Componentes
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typographt';
+@use 'components/animations';
+
+
+//Importar las Secciones
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/campanies';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
