@@ -11128,6 +11128,117 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
+/* /////////////////////// Estilo de caja de COntacto /////////////////////// */
+.contact-box {
+  position: relative;
+}
+.contact-box_icon {
+  width: 2rem;
+  stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box_icon {
+    width: 4rem;
+  }
+}
+.contact-box_info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box_info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box_info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box_info--subtitle {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box_info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* //////////////////////// Estilo de redes Sociales //////////////////////// */
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
+/* /////////////////////// Estilo de info de compania /////////////////////// */
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #9926f0;
+}
+
+/* /////////////////////////// Estilo de copyright ////////////////////////// */
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom_copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom_copyright a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom_copyright a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
+
+/* ///////////////////////// Estilo boton de regreso //////////////////////// */
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .services {
   position: relative;
   padding: 1rem 0;
