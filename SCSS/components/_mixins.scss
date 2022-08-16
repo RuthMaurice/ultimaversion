@@ -16,3 +16,19 @@
     left: 95%;
     transform: translate(-50%,-60%);
 }
+
+@mixin absoluteCenter2{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/*                          Propiedades de transicion                         */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+@mixin transitionProperty{
+    transition-duration: 1s;
+    transition-property: all;
+}
