@@ -16,10 +16,12 @@
     overflow: hidden;
     margin-bottom: 1.2rem;
     border-top: 0.5rem solid $purple-light;
+    background-size:contain;
 
     img{
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: auto;
+        background-size:contain;
     }
 
     .portfolio-info{
